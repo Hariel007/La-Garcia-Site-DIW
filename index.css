@@ -1,0 +1,318 @@
+
+
+
+.h1{ /*Modificações do titulo*/
+    
+    font-family:'Times New Roman';
+    text-align: center;    
+    height: 90px;
+    width: 100%;    
+    background-color: rgb(107, 43, 43);
+    font-size: 100px;
+    padding: 0;
+    text-shadow: 2px 2px 5px aliceblue;
+    color: rgb(252, 252, 252);
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 0; /*Separa a lista do titulo*/
+    
+}
+    
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}  
+
+
+
+
+
+
+#menu-horizontal{ /*Lista*/
+    
+    font-family: 'Arial';
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(107, 43, 43);
+    border-left: none;
+    border-right: none;
+    margin-bottom: 0;
+    margin-top: 5;
+    padding-top: 5px;  
+    
+    
+}
+
+    
+              
+
+
+
+#menu-horizontal ul li a{
+    
+    display:inline-flex;
+    font-size: 16px;
+    
+    border-radius: 10px;
+    background-color: none;
+    color: white;
+    text-align: center;
+    text-shadow: none;
+    padding: 20px;
+    text-decoration: none;
+    transition-duration: 0.9s;
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2),0 6px 20px 0 rgba(255, 255, 255, 0.19);
+}
+       
+
+
+
+
+#menu-horizontal ul li a:hover{
+     /*Quando o mouse está em cima*/
+    border: none;
+    background-color: rgb(124, 160, 66);
+    color: rgb(255, 255, 255);
+    border-width: 20px;
+    
+    
+}
+    
+#menu-horizontal ul li{
+     display:inline-block;
+     padding: 20px;   
+     background-repeat: no-repeat;
+     background-size: center center;
+     border-radius: 10px;
+     padding-inline: 10px;
+     
+     
+}
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.tudo{ /*Envolve todos os blocos*/
+    
+    background-color: rgb(107, 43, 43);
+    margin:0;
+    margin-top: 0;
+    border-top: none;
+    border-bottom: 0;
+    height: auto;
+    padding-bottom: 10px;
+    
+    
+}
+
+.quadrado{ /*Envolve os quadrados aonde fica as imagens*/
+
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-block: 15px;
+    position: relative;
+    left: 15%;
+    padding: 20px;
+    margin-bottom: 10px;
+    padding-inline: auto; 
+    opacity: 0.7;
+    margin-left: 10px;
+    
+    
+}
+
+.quadrado:hover{ /*Aonde fica o efeito quando passa o mouse*/
+    
+    transform: scale(1.0);
+    box-shadow: 5px 9px;
+    opacity: 1;
+   
+}
+
+
+
+div#q1{
+    
+   
+    background-image: url('imagens_inicio/lasanha.jpg');
+    background-repeat: no-repeat; /*Não repete a imagem*/
+    background-position: center center; /*Ajusta a imagem dentro da div*/
+
+    
+}
+
+
+
+div#q2{
+    background-image: url('imagens_inicio/picanha.jpg'); /*Posso colocar no lugar das imagens as marcas famosas de skate e seus links junto a imagem.*/
+    background-repeat: no-repeat; /*Não repete a imagem*/
+    background-position: center center;
+    
+    
+    
+    
+    
+}
+
+div#q3{
+    background-image: url('imagens_inicio/massa.jpg');
+    background-position: center center;
+    
+}
+
+div#q4{
+    background-image: url('imagens_inicio/sobremesa.jpg');
+    background-position: center bottom;
+    
+}
+
+div#q5{
+    background-image: url('imagens_inicio/salada.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+div#q6{
+    background-image: url('imagens/comida.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    
+}
+
+#Horarios1{
+    
+ text-align: center;   
+ color: #f0eded;
+ border-radius: 10px;
+ border-style: double;
+ animation: go-back 1s infinite alternate;
+ width: 80%;
+ height: auto;
+ background-color: rgb(106, 110, 45);
+ padding-top: 5px;
+ border-color: rgb(215, 216, 212);
+ border-right: none;
+ border-top: none;
+ border-left: none;
+ padding-bottom: 3px;
+ margin-left: 60px;
+ font-size: 17px;
+ margin-top: 10px;
+
+}
+
+@keyframes go-back{
+     from{ transform: translateX(10px);
+    }
+     to{
+
+     transform: translateX(5);
+    }
+    
+}
+
+#Horarios1:hover{
+    background-color: rgb(184, 184, 32);
+    color: black;
+    
+    
+}
+
+
+.letras1{
+    text-align: center;
+    color: rgb(9, 10, 10);
+    padding-bottom: 0px;
+    padding-top: 100px;
+    
+}
+
+
+
+    
+
+
+#posiçao{
+    margin-top: 0;
+    margin-bottom: 0px;
+    text-align: auto;
+    color: #fcf4f4;
+   background-color: rgb(107, 43, 43);;
+    height: 300px;
+    width: 100%;
+    padding-top: 10px;
+}
+
+
+
+.posicao2{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Arial';
+    
+}
+
+.link{
+    
+    border: 1px solid rgb(188, 207, 13);
+   
+}
+
+
+
+/*----------------------------------------------------------------------------------------------------------*/
+#final{ 
+    
+    height: auto;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color:black;
+    
+
+}
+
+.copy{ 
+    color: aliceblue;
+    text-align: center;
+    font-family:'Arial';
+    font-size: small;
+    padding-top: 10px;
+    margin-bottom: 2px;
+    margin-top: 0;   
+    
+}
+
+
+
+.nomes{
+    text-align: center;
+    background-color: rgb(14, 12, 11);;
+    border: none;
+    margin: 0;
+    padding:0;
+    border-radius: 7px;
+    border-bottom: none;
+
+}
+
+.tudo,video{
+    padding-bottom: auto;
+    margin: 0;
+    padding: 0;
+
+}
+
+.mapa{
+    margin-top: 20px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+   
+}
+
+

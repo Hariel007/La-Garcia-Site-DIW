@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+   <form class="tudo">
+      <p>Nome: <input type="text" name="nome" id="input" required="required" placeholder="ex: fulano"></p>
+
+      <p>Sobrenome: <input type="text" name="sobrenome" id="input" required="required" placeholder="ex: nunes"></p>
+      <p>Data de nascimento: 
+                <input type="text" name="Dia" id="input" size="2" maxlength="2" placeholder="Dia" required="required">
+                <input type="text" name="Mês" id="input" size="2" maxlength="2" placeholder="Mes" required="required">
+                <input type="text" name="Ano" id="input" size="4" maxlength="4" placeholder="Ano" required="required">
+
+    
+    
+       </p>
+      
+      <p>Telefone: <input type="tel" name="telefone" id="input" required="required" placeholder="ex: 51"></p>
+      
+      <p>Informe o seu e-mail: </e-mai>: <input type="gmail" id="input" required="required" placeholder="com @" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"/></p>
+     
+      <a>Gênero:<br>
+        <input type="checkbox">Homem
+        <br>
+        <input type="checkbox">Mulher
+        <br>
+        <input type="checkbox">Prefiro não informar
+         
+       
+        <br>
+        <br>
+      </a>
+    <a>Área de atuação:<br>
+    
+               <input type="checkbox">Front-End
+               <br>
+               <input type="checkbox">Back-End
+               <br>
+               <input type="checkbox">Outro
+      <br>
+      <br>
+    </a>  
+      <a>Expêriencia: 
+      <br>
+        <textarea type="text" name="Experiencia" id="input" placeholder="Escreva aqui"></textarea>
+      </a>
+      <p>Currículo: ( Não obrigatório )
+      <br> 
+      <input type="file" name="cv"></p>
+      <input type="submit" value="Enviar" class="botao">
+   </form> 
+   
+    <footer>
+     <p class="copy">© Copyright - 2022</p>
+     <p class="copy">Todos direitos reservados a La Garcia | Hariel Mendonça</p>
+   
+    </footer>
+    
+        
+
+
+</body>
+</html>
